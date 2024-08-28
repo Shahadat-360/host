@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Product Management</title>
+</head>
+<body>
+    <div class="container">
+        <h4>Product Management Application</h4>
+        <table id="productList" class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>T-Shirt</td>
+                    <td>800.0</td>
+                    <td>
+                        <a href="#" class="button">ADD to cart</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Pant</td>
+                    <td>1600.0</td>
+                    <td>
+                        <a href="#" class="button">ADD to cart</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Shoes</td>
+                    <td>2000.0</td>
+                    <td>
+                        <a href="#" class="button">ADD to cart</a>
+                    </td>
+                </tr>
+                <tr>
+                    <td>Watches</td>
+                    <td>5000.0</td>
+                    <td>
+                        <a href="#" class="button">ADD to cart</a>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <h4>Your Cart List</h4>
+        <table class="u-full-width">
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Price</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody id="cartList"></tbody>
+        </table>
+    </div>
+    <script src="product.js"></script>
+</body>
+</html>
