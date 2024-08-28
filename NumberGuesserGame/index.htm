@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css" integrity="sha512-5fsy+3xG8N/1PV5MIJz9ZsWpkltijBI48gBzQ/Z2eVATePGHOkMIn+xTDHIfTZFVb9GMpflF2wOWItqxAP2oLQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+    <style>
+        .error,.win,.lose,.notice{
+            color:white;
+            padding: 5px;
+            margin: 5px 0 15px 0;
+        }
+        .error{
+            background-color: red;
+        }
+        .win{
+            background-color: green;
+        }
+        .lose{
+            background-color:gray;
+        }
+        .notice{
+            background-color: rgb(0, 20, 243);
+        }
+        #resetBtn{
+            display: none;
+        }
+        #btn{
+            background-color: yellowgreen;
+        }
+        #resetBtn{
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h4 style="text-align: center;">Number Guessing Game</h4>
+        <label for="" id="guessLabel" class="u-full-width"></label>
+        <input type="text" id="guessInput" placeholder="Enter a Number" class="u-full-width">
+        <button class="u-full-width" id="btn">Submit</button>
+        <button class="u-full-width" id="resetBtn">Restart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
